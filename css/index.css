@@ -1,1 +1,240 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+.container {
+  max-width: 900px;
+  padding: 1%;
+  margin: auto;
+  border: 1px dotted black;
+  border-radius: 5px;
+}
+header {
+  background-color: slategray;
+  height: 35vh;
+  max-width: 900px;
+  border: 1px dotted black;
+  border-radius: 5px;
+  border-radius: 10px;
+}
+body {
+  background-color: gainsboro;
+}
+.myname {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: lightblue;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 0.3%;
+}
+.title {
+  font-size: 1.5rem;
+  color: lightblue;
+  font-weight: bold;
+  text-align: center;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 3rem 0 0 5rem auto;
+  width: 100%;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 1%;
+}
+.links a {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: silver;
+  text-decoration: none;
+}
+h3 {
+  font-size: 2rem;
+  margin: 1rem 0 0 1rem;
+}
+h4 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0 0.5rem;
+}
+p {
+  background-color: slategray;
+  border: 1px dotted black;
+  border-radius: 5px;
+}
+#about {
+  margin-bottom: 1rem;
+  border-top: 1px dotted black;
+  height: 2rem;
+}
+.buttonz {
+  margin-top: 4rem;
+}
+#skills {
+  display: flex;
+  justify-content: space-around;
+}
+.training {
+  width: 30%;
+}
+.skillslabel {
+  text-align: center;
+  border-bottom: 2px dashed black;
+}
+.aboutme {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#about {
+  margin-top: 1rem;
+  width: 100%;
+  border-top: 0;
+  border-bottom: 2px dashed black;
+}
